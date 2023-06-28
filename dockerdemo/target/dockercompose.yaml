@@ -1,0 +1,10 @@
+version: '3'
+services:
+  helloworld:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dockerdemo-image:latest
+    ports:
+      - 8080:8080
+
